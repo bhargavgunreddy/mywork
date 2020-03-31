@@ -1,0 +1,25 @@
+
+@import './../layout/_common.scss';
+
+.intro{
+
+	height: 80%;
+	justify-content: space-between	;
+	align-items: center;
+    flex: 1 4 1;
+	border: 1px solid green;
+	font-weight: bold;
+    padding: 0 5%;
+    box-sizing: border-box;
+
+    img{
+        @include image-defaults;
+        height: 25%;
+    }
+
+    p{
+        padding: 0 2%;
+        word-break: break-all;
+    }
+
+}

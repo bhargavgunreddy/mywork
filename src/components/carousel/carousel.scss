@@ -1,0 +1,26 @@
+
+
+@import './../layout/_common.scss';
+
+.carousel{
+		height: 90%;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid green;
+		/*background-color: green;*/
+
+		.images-section{ 
+		   width: 80%;
+    		height: 100%;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+
+			.carousel-image{
+			@include image-defaults
+			}
+		}
+
+	}

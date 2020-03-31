@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'trocchiregular';
+    src: url('trocchi-regular-webfont.woff2') format('woff2'),
+         url('trocchi-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  margin: 0;
+  font-family: 'trocchiregular',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family:  'trocchiregular',
+    monospace;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
